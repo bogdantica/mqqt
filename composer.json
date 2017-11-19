@@ -1,5 +1,5 @@
 {
-    "name": "tikagnu/mqqt",
+    "name": "tikagnus/mqqt",
     "description": "Php MQQT Library",
     "license": "GNU",
     "authors": [
@@ -9,6 +9,7 @@
         }
     ],
   "minimum-stability": "beta",
+
     "version": "0.1",
     "require": {
         "php": ">=7.1"
