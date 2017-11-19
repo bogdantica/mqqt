@@ -8,6 +8,7 @@
             "email": "tica.bogdan@yahoo.ro"
         }
     ],
+  "minimum-stability": "0.1",
     "version": "0.1",
     "require": {
         "php": ">=7.1"

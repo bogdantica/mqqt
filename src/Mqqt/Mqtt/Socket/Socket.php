@@ -109,6 +109,7 @@ class Socket
 
         stream_set_timeout($this->socket, $this->socketTimeout);
         stream_set_blocking($this->socket, 0);
+        socket_set_option($this->socket, SOL_SOCKET, SO_KEEPALIVE, 1);
 
         return $this;
     }
